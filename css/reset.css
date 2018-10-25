@@ -61,11 +61,13 @@ strong {
 
 .red {
     background: #e90808;
-    padding: 4px 10px;
+    padding: 4px 0;
     color: #fff;
+    text-align: center;
     font-size: 12px;
     border: 1px solid #e90808;
     margin-right: 10px;
+    width: 50px;
 }
 
 .grey {
@@ -73,6 +75,8 @@ strong {
     background: #f5f5f5;
     margin-right: 10px;
     font-size: 12px;
-    padding: 4px 10px;
+    width: 50px;
+    padding: 4px 0;
+    text-align: center;
     border: 1px solid #ddd;
 }

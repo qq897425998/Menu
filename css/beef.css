@@ -11,7 +11,6 @@
 
 .beef-info {
     margin-left: 30px;
-    padding-top: 20px;
 }
 
 .beef-info p {
@@ -31,16 +30,26 @@ h2 {
     font-size: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #e4e4e4;
-    margin: 20px 0px 10px 0px;
+    margin-bottom: 10px;
     color: #c0ae7d;
 }
 
-.material-info {
+.material-info,
+.fl-info {
     margin-bottom: 10px;
     border-bottom: 1px solid #e4e4e4;
     padding-bottom: 18px;
     font-size: 14px;
     padding-top: 8px;
+}
+
+.fl-info {
+    display: flex;
+    flex: 1;
+}
+
+.fl-info .seasoning {
+    line-height: 22px;
 }
 
 .practice {
@@ -81,6 +90,20 @@ h2 {
 .edit ul li p {
     padding: 10px 20px 10px 0px;
     line-height: 24px;
-    color: #666;
-    font-size: 16px;
+    color: #252525;
+    font-size: 15px;
+}
+
+dt,
+dd {
+    display: inline-block;
+}
+
+dt {
+    vertical-align: top;
+}
+
+dd {
+    width: 80%;
+    line-height: 26px;
 }
