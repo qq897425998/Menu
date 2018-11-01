@@ -1,213 +1,220 @@
-/* 头部css开始 */
-
-.mian,
-.header ul {
-    width: 900px;
-    margin: 0 auto;
-}
-
-.header ul li {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.header ul li a {
-    color: #fff;
-    padding: 20px;
-    display: inline-block;
-}
-
-
-/* 头部css结束 */
-
-
-/* 头部移动端响应式css开始 */
-
-@media screen and ( max-width: 640px) {
-    .box {
-        overflow-x: scroll;
-        overflow-y: hidden;
-    }
+    /* 头部css开始 */
+    
     .mian,
     .header ul {
-        width: 100%;
+        width: 900px;
         margin: 0 auto;
     }
+    
     .header ul {
         display: flex;
     }
+    
     .header ul li {
         flex: 1;
-    }
-    .mian,
-    .header ul {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .header ul li a {
-        padding: 12px 0;
-        width: 90px;
-        color: #fff;
-        font-size: 12px;
         text-align: center;
     }
-}
-
-.cp {
-    display: flex;
-    flex: 1;
-    margin-top: 20px;
-}
-
-.cp img {
-    width: 260px;
-}
-
-.beef-info {
-    padding: 20px;
-}
-
-.beef-info p {
-    line-height: 24px;
-    font-size: 14px;
-    padding: 10px 0;
-    color: #666;
-}
-
-
-/* 头部移动端响应式css结束 */
-
-h1,
-h2 {
-    font-weight: normal;
-}
-
-
-/* 标题css开始 */
-
-.material-title {
-    font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #e4e4e4;
-    margin-bottom: 10px;
-    color: #c0ae7d;
-}
-
-.material-info,
-.fl-info {
-    margin-bottom: 10px;
-    border-bottom: 1px solid #e4e4e4;
-    padding-bottom: 18px;
-    font-size: 14px;
-    padding-top: 8px;
-    display: flex;
-    flex: 1;
-}
-
-.fl-info .seasoning {
-    line-height: 22px;
-}
-
-.practice {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding: 20px;
-    width: 800px;
-}
-
-.practice h2 {
-    border-bottom: 1px solid #e4e4e4;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-}
-
-
-/* 标题css结束 */
-
-
-/* 菜的做法开始 */
-
-.edit ul li {
-    /* overflow: hidden; */
-    display: flex;
-    flex: 1;
-    padding-bottom: 20px;
-}
-
-.edit ul li em {
-    font-size: 40px;
-    color: #ff3232;
-    font-style: italic;
-    text-align: center;
-    font-family: arial;
-    height: 50px;
-    line-height: 50px;
-}
-
-.edit ul li p {
-    padding: 10px 20px 16px 0px;
-    line-height: 24px;
-    color: #252525;
-    font-size: 16px;
-}
-
-dd {
-    width: 80%;
-    line-height: 26px;
-}
-
-
-/* 菜的做法结束*/
-
-@media screen and ( max-width: 640px) {
-    h1 {
-        font-size: 18px;
+    
+    .header ul li a {
+        color: #fff;
+        font-size: 12px;
+        padding: 12px;
+        display: inline-block;
     }
+    /* 头部css结束 */
+    /* 头部移动端响应式css开始 */
+    
+    @media screen and ( max-width: 640px) {
+        .box {
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+        .mian,
+        .header ul {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .header ul {
+            display: flex;
+        }
+        .header ul li {
+            flex: 1;
+        }
+        .mian,
+        .header ul {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .header ul li a {
+            padding: 12px 0;
+            width: 90px;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    
     .cp {
-        flex-wrap: wrap;
-        margin-top: 12px;
-        width: 94%;
-        margin: 12px;
+        display: flex;
+        flex: 1;
+        margin-top: 20px;
+        box-shadow: 0 1px 2px #c1c1c1;
+        border-radius: 6px;
     }
+    
+    .cp .pic {
+        width: 100%;
+    }
+    /* 头部移动端响应式css开始 */
+    
+    @media screen and ( max-width: 640px) {
+        .cp .pic {
+            border-radius: 6px;
+            height: 220px;
+        }
+    }
+    
     .beef-info {
-        padding: 12px 20px
+        padding: 20px;
     }
+    
     .beef-info p {
-        font-size: 12px;
-    }
-    .material-info dd {
-        font-size: 12px;
         line-height: 24px;
+        font-size: 14px;
+        padding: 10px 0;
+        color: #666;
     }
-    .practice {
-        width: 88%;
-        margin: 10px;
-        padding: 12px 0;
-        margin-top: 10px;
+    /* 头部移动端响应式css结束 */
+    
+    h1,
+    h2 {
+        font-weight: normal;
     }
-    .practice h2 {
+    /* 标题css开始 */
+    
+    .material-title {
+        font-weight: bold;
+        font-size: 20px;
         padding-bottom: 10px;
+        border-bottom: 1px solid #e4e4e4;
+        margin-bottom: 10px;
+        color: #c0ae7d;
+    }
+    
+    .material-info,
+    .fl-info {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e4e4e4;
+        padding-bottom: 18px;
+        font-size: 14px;
+        padding-top: 8px;
+        display: flex;
+        flex: 1;
+    }
+    
+    .fl-info .seasoning {
+        line-height: 22px;
+    }
+    
+    .practice {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 20px;
+        width: 800px;
+        box-shadow: 0 1px 2px #c1c1c1;
+    }
+    
+    .practice h2 {
+        border-bottom: 1px solid #e4e4e4;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+    }
+    /* 标题css结束 */
+    /* 菜的做法开始 */
+    
+    .edit ul li {
+        /* overflow: hidden; */
+        display: flex;
+        flex: 1;
+        padding-bottom: 20px;
+    }
+    
+    .edit ul li em {
+        font-size: 40px;
+        color: #ff3232;
+        font-style: italic;
+        text-align: center;
+        font-family: arial;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .edit ul li p {
+        padding: 10px 20px 16px 0px;
+        line-height: 24px;
+        color: #252525;
         font-size: 16px;
     }
-    .practice h2,
-    .practice .edit {
-        padding-left: 15px;
+    
+    dd {
+        width: 80%;
+        line-height: 26px;
     }
-    .edit ul li em {
-        font-size: 26px;
-        line-height: 25px;
+    /* 菜的做法结束*/
+    
+    @media screen and ( max-width: 640px) {
+        h1 {
+            font-size: 18px;
+        }
+        /* 移动端标题css开始 */
+        .cp {
+            flex-wrap: wrap;
+            margin-top: 12px;
+            width: 93%;
+            margin: 12px 13px
+        }
+        .beef-info {
+            padding: 12px 20px
+        }
+        .beef-info p {
+            font-size: 12px;
+        }
+        .material-info dd {
+            font-size: 12px;
+            line-height: 24px;
+        }
+        /* 移动端标题css结束 */
+        /* 移动端菜的做法开始 */
+        .practice {
+            width: 88%;
+            margin: 10px;
+            padding: 12px 0;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+        .practice h2 {
+            padding-bottom: 10px;
+            font-size: 16px;
+        }
+        .practice h2,
+        .practice .edit {
+            padding-left: 15px;
+        }
+        .edit ul li em {
+            font-size: 26px;
+            line-height: 25px;
+        }
+        .edit ul li img {
+            width: 90%;
+        }
+        .edit ul li {
+            padding-bottom: 10px;
+        }
+        .edit ul li p {
+            padding: 5px 10px 10px 0px;
+            line-height: 20px;
+            color: #252525;
+            font-size: 14px;
+        }
+        /* 移动端菜的做法结束 */
     }
-    .edit ul li img {
-        width: 90%;
-    }
-    .edit ul li {
-        padding-bottom: 10px;
-    }
-    .edit ul li p {
-        padding: 5px 10px 10px 0px;
-        line-height: 20px;
-        color: #252525;
-        font-size: 14px;
-    }
-}
