@@ -65,7 +65,6 @@
 
 .beef-info {
     padding: 20px;
-    margin-left: 30px;
 }
 
 .beef-info p {
@@ -167,18 +166,12 @@ dd {
     }
     .cp {
         flex-wrap: wrap;
-        padding: 12px;
         margin-top: 12px;
-        width: 88%;
-        margin: 10px;
-    }
-    .cp .pic {
-        background: url(../images/wing2.jpg)no-repeat center center;
-        height: 220px;
-        width: 100%;
+        width: 94%;
+        margin: 12px;
     }
     .beef-info {
-        margin: 12px;
+        padding: 12px 20px
     }
     .beef-info p {
         font-size: 12px;

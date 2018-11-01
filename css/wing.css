@@ -1,4 +1,12 @@
-.cp .pic {
-    background: url(../images/wing.jpg)no-repeat;
-    width: 800px;
-}
+    .cp .pic {
+        background: url(../images/wing.jpg)no-repeat;
+        width: 800px;
+    }
+    
+    @media screen and ( max-width: 640px) {
+        .cp .pic {
+            background: url(../images/wing2.jpg)no-repeat center center;
+            height: 220px;
+            width: 100%;
+        }
+    }

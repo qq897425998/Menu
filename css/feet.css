@@ -2,3 +2,11 @@
     background: url(../images/feet.jpg)no-repeat;
     width: 800px;
 }
+
+@media screen and ( max-width: 640px) {
+    .cp .pic {
+        background: url(../images/f8.png)no-repeat center center;
+        height: 220px;
+        width: 100%;
+    }
+}
